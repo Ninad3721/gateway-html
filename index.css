@@ -1,0 +1,79 @@
+.heroSection {
+  background-image: url(./assets/images/nathan-dumlao-q3YZ4g7j9yc-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  color: white;
+  opacity: 90%;
+}
+
+#bgImageMainText {
+  font-size: 64px;
+}
+
+#bgImageSubtitle {
+  font-size: 32px;
+}
+
+.aboutSection {
+  margin-block: 20px;
+}
+
+#aboutUsTitle {
+  font-size: 48px;
+}
+#aboutUsParagraph {
+  text-align: center;
+  width: 50%;
+}
+
+.servicesSection {
+  margin-block: 20px;
+}
+
+#servicesTitle {
+  margin-block: 10px;
+  font-size: 48px;
+}
+
+#servicesCards {
+  margin-inline: 40px;
+}
+
+#packageTitle {
+  font-size: 48px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1),
+    filter 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.card img:hover {
+  transform: scale(1.1); /* Enlarge the image */
+}
+
+@media (min-width: 768px) {
+  #bgImageMainText {
+    font-size: 48px;
+  }
+
+  #bgImageSubtitle {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  #bgImageMainText {
+    font-size: 24px;
+  }
+
+  #bgImageSubtitle {
+    font-size: 16px;
+  }
+
+  #contactCard {
+    width: 100%;
+  }
+}
